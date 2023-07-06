@@ -248,9 +248,9 @@
     <Compile Include="Migrations\202307040746158_UpdateModel.designer.cs">
       <DependentUpon>202307040746158_UpdateModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202307060206035_SeedUsers.cs" />
-    <Compile Include="Migrations\202307060206035_SeedUsers.designer.cs">
-      <DependentUpon>202307060206035_SeedUsers.cs</DependentUpon>
+    <Compile Include="Migrations\202307060601457_SeedUsers.cs" />
+    <Compile Include="Migrations\202307060601457_SeedUsers.designer.cs">
+      <DependentUpon>202307060601457_SeedUsers.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -520,9 +520,10 @@
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
-    <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\List.cshtml" />
     <Content Include="Views\Customers\CustomerForm.cshtml" />
     <Content Include="Views\Movies\MovieForm.cshtml" />
+    <Content Include="Views\Movies\ReadOnlyList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -594,8 +595,8 @@
     <EmbeddedResource Include="Migrations\202307040746158_UpdateModel.resx">
       <DependentUpon>202307040746158_UpdateModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202307060206035_SeedUsers.resx">
-      <DependentUpon>202307060206035_SeedUsers.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202307060601457_SeedUsers.resx">
+      <DependentUpon>202307060601457_SeedUsers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
