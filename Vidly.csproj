@@ -252,6 +252,14 @@
     <Compile Include="Migrations\202307060601457_SeedUsers.designer.cs">
       <DependentUpon>202307060601457_SeedUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202307060627091_AddDrivingLicenseToApplicationUser.cs" />
+    <Compile Include="Migrations\202307060627091_AddDrivingLicenseToApplicationUser.designer.cs">
+      <DependentUpon>202307060627091_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307061155217_AddPhoneToApplicationUser.cs" />
+    <Compile Include="Migrations\202307061155217_AddPhoneToApplicationUser.designer.cs">
+      <DependentUpon>202307061155217_AddPhoneToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -261,6 +269,7 @@
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\RoleName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CustomerFormViewModel.cs" />
@@ -597,6 +606,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202307060601457_SeedUsers.resx">
       <DependentUpon>202307060601457_SeedUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307060627091_AddDrivingLicenseToApplicationUser.resx">
+      <DependentUpon>202307060627091_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307061155217_AddPhoneToApplicationUser.resx">
+      <DependentUpon>202307061155217_AddPhoneToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
