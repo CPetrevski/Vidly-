@@ -42,7 +42,7 @@ namespace Vidly
                       "~/scripts/toastr.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-lumen.css",
+                      "~/Content/bootstrap-super.css",
                       "~/Content/bootstrap-theme.css",
                       "~/Content/DataTables/css/datatables.bootstrap4.css",
                       "~/Content/typeahead.css",
