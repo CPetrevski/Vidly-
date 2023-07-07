@@ -29,6 +29,8 @@ namespace Vidly.Models
         [Range(1, 30)]
         public byte NumberInStock { get; set; }
 
+        public byte NumberAvailable { get; set; }
+
     }
 
 
