@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
@@ -56,8 +57,8 @@ namespace Vidly
 
             //ADD YOUR CREDENTIALS
             app.UseFacebookAuthentication(
-               appId: "FACEBOOK_API_ID",
-               appSecret: "FACEBOOK_API_SECRET");
+               appId: ConfigurationManager.AppSettings["FacebookAppId"],
+               appSecret: ConfigurationManager.AppSettings["FacebookAppSecret"]);
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
