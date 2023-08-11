@@ -415,6 +415,12 @@
     <Content Include="Content\DataTables\images\sort_desc.png" />
     <Content Include="Content\DataTables\images\sort_desc_disabled.png" />
     <Content Include="Content\DataTables\swf\flashExport.swf" />
+    <Content Include="Content\Images\Screenshot0.PNG" />
+    <Content Include="Content\Images\Screenshot1.PNG" />
+    <Content Include="Content\Images\Screenshot2.PNG" />
+    <Content Include="Content\Images\Screenshot3.PNG" />
+    <Content Include="Content\Images\Screenshot4.PNG" />
+    <Content Include="Content\Images\Screenshot5.PNG" />
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
     <Content Include="Content\typeahead.css" />
